@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="基本設定"><ListPreference android:summary="pc to connect" android:key="select_pc" android:title="select PC"></ListPreference>
+
+
+<CheckBoxPreference android:key="shake_next" android:title="Shake Next !" android:summary="shake phone to next page" android:defaultValue="true"></CheckBoxPreference>
+<CheckBoxPreference android:key="volume_next" android:title="Volume_button to next" android:defaultValue="true" android:summary="use volume button to next page"></CheckBoxPreference>
+
+
+
+
+
+
+<EditTextPreference android:key="vib1" android:title="vibrate1" android:summary="pre alarm (min)" android:defaultValue='"10"' android:inputType="number"></EditTextPreference>
+<EditTextPreference android:key="vib2" android:title="vibrate2" android:summary="alarm (min)" android:defaultValue='"15"' android:inputType="number"></EditTextPreference>
+</PreferenceCategory>
+<PreferenceCategory android:title="その他の設定" android:summary="まだできてません"></PreferenceCategory>
+</PreferenceScreen>

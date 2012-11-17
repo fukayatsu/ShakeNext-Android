@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true">
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="StopWatch"></TextView>
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="50sp" android:layout_gravity="center_horizontal" android:longClickable="true" android:text="00:00:00" android:clickable="true"></TextView>
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="10sp">
+	<Button android:id="@+id/Button01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text="Home"></Button>
+	<TextView android:id="@+id/TextView03" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="center" android:layout_height="fill_parent" android:text="[  ?  ]"></TextView>
+	<Button android:id="@+id/Button02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text="End"></Button>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="100sp" android:layout_marginTop="10sp">
+	<Button android:id="@+id/Button03" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="fill_parent" android:layout_marginRight="20sp" android:text="Back"></Button>
+	
+	<Button android:id="@+id/Button04" android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20sp" android:text="Next"></Button>
+</LinearLayout>
+<TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pointer ↓ "></TextView><View android:id="@+id/View01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="true" android:visibility="visible"></View>
+
+
+</LinearLayout>
